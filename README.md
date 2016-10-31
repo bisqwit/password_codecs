@@ -2,6 +2,10 @@
 Collection of password encoders and decoders created
 with the video series at: https://www.youtube.com/playlist?list=PLzLzYGEbdY5nEFQsxzFanSDv_38Hz0w7B
 
+Note: The “Research by” headers list the research that was utilized in the
+making of the episode. It is not necessarily the record of people who were
+globally the first to crack the passwords.
+
 ## Episode 1: Mega Man 2
 
 Episode date: 2016-09-03  

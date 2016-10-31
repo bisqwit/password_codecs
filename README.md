@@ -127,3 +127,11 @@ Research by: TNSe, 2004
 Research by: Bisqwit, 2016
 
 * guardicpass.cc (C++): An encoder and decoder for the passwords. ASCII only.
+
+## Intermission (between episodes 6 and 7)
+
+Video link: http://youtu.be/qmxZndDVgmc  
+Episode date: 2016-09-13  
+Thanks to: Everyone who supports me on Patreon and Paypal!  
+Link to: https://patreon.com/Bisqwit  
+Link to: http://iki.fi/bisqwit/donate.html

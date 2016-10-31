@@ -17,12 +17,11 @@ and if the password passes validation,
 the game will load the state stored in it.
 
 Because the password was stored in media that is subject to
-both intentional degradation (cracking)
-and unintentional degradation (misspelling or misreading),
+not only unintentional degradation (misspelling or misreading),
+but also intentional degradation (hacking and cracking),
 most games employed encryption and checksumming.
-The purpose of encryption and checksumming was to make sure,
-that the player cannot cheat or accidentally enter such a password
-that gives them an unfair advantage.
+The purpose of encryption and checksumming was to reduce the chances
+of the player gaining an unfair advantage by entering a modified password.
 Each game did this a bit differently.
 
 The act of saving the game as a password was an art unto itself.
@@ -35,7 +34,7 @@ Sometimes it may spotlight caveats that are still applicable to developers even 
 
 Personally for me, it is a way to gain closure to the hundreds of hours,
 that I invested in attempting to crack the passwords in my early teens;
-to close a book in a honorable and satisfying manner.
+to close a book in an honorable and satisfying manner.
 
 Note: The “Research by” headers list the research that was utilized in the
 making of the episode. It is not a leaderboard of people who were

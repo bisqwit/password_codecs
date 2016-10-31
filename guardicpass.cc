@@ -32,8 +32,9 @@ public:
               + (b(20) | (Rev<2>(b(11) >> 2) << 8))*1000;
         // Verify checksum and password alphabet validity
         unsigned syms=0, sum=0;
-        for(unsigned n=0; n<32; syms |= sym(n++)) if(n<22 || n==23) sum += b(n) + sum/256%2*257;
-        return syms < 64 && b(22) == (sum & 0xFF);
+        for(unsigned n=32; n-- > 0; syms |= sym(n)) if(n<22) sum += b(n) + sum/256%2*257;
+        // Note: In the video I derped. The checksum calculation should be downwards from 21 to 0, and last 23.
+        return syms < 64 && b(22) == ((sum + b(23) + sum/256%2*257) & 0xFF);
     }
     void Encode(char* password, unsigned key) const
     {
@@ -48,7 +49,8 @@ public:
             Rev<3>((std::min(int(attack),8)-1)&7) + 8*coord[0], Rev<3>(shield>7?0:shield) + 8*coord[1],
             scorehi,scorelo, 0, key };
         // Calculate and insert checksum
-        for(unsigned n=0; n<24; ++n) if(n != 22) bytes[22] += (bytes[n] & 0xFF) + bytes[22]/256%2*257;
+        for(unsigned n=22; n-- > 0; ) bytes[22] += (bytes[n] & 0xFF) + bytes[22]/256%2*257;
+        bytes[22] += (bytes[23] & 0xFF) + bytes[22]/256%2*257;
         // byt() returns encrypted bytes.
         auto byt = [&](unsigned n) -> std::uint8_t { return bytes[n] ^ (n!=23 ? bytes[23]+29-n : 0u); };
         // BASE64-encode the encrypted bytes using the password alphabet.

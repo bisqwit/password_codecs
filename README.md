@@ -33,7 +33,7 @@ Research by: Bisqwit, 2016
 ## Episode 5: Mega Man 4
 
 Episode date: 2016-09-07  
-Research by: Internet, 200x
+Research by: unknown, 200x
 
 * mm4minimal1.php (PHP): A minimal tool for generating a random valid password.
 * mm4minimal1.py (Python): A Python version of the same.
@@ -42,7 +42,7 @@ Research by: Internet, 200x
 ## Episode 6: Simon's Quest
 
 Episode date: 2016-09-10  
-Research by: Internet, 200x  
+Research by: unknown, 200x  
 Research by: Bisqwit, 200x
 
 * simonspass.cc (C++): An encoder and decoder for the passwords. No main program.

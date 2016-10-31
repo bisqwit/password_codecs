@@ -46,6 +46,7 @@ These programs encode and decode passwords.
 
 ## Episode 1: NES Mega Man 2 (Rockman 2)
 
+Video link: http://youtu.be/0eQyYrSQPew  
 Episode date: 2016-09-03  
 Research by: Bisqwit, 199x
 
@@ -53,6 +54,7 @@ No files
 
 ## Episode 2: NES Mega Man 3 (Rockman 3)
 
+Video link: http://youtu.be/QnRcAyYmL0U  
 Episode date: 2016-09-04  
 Research by: Bisqwit, 199x
 
@@ -60,6 +62,7 @@ No files
 
 ## Episode 3: NES Gremlins 2
 
+Video link: http://youtu.be/iajgztvLxGc  
 Episode date: 2016-09-05  
 Research by: Bisqwit, 2016
 
@@ -67,6 +70,7 @@ Research by: Bisqwit, 2016
 
 ## Episode 4: NES Bubble Bobble
 
+Video link: http://youtu.be/PIu9J_CD818  
 Episode date: 2016-09-06  
 Research by: Bisqwit, 2016
 
@@ -74,6 +78,7 @@ Research by: Bisqwit, 2016
 
 ## Episode 5: NES Mega Man 4 (Rockman 4)
 
+Video link: http://youtu.be/PFcxmdH_4ac  
 Episode date: 2016-09-07  
 Research by: unknown, 200x
 
@@ -83,6 +88,7 @@ Research by: unknown, 200x
 
 ## Episode 6: NES Castlevania II — Simon’s Quest (Dracula II — Noroi no Fuuin)
 
+Video link: http://youtu.be/_3ve0YEQEMw  
 Episode date: 2016-09-10  
 Research by: unknown, 200x  
 Research by: Bisqwit, 200x
@@ -91,6 +97,7 @@ Research by: Bisqwit, 200x
 
 ## Episode 7: NES Bomberman
 
+Video link: http://youtu.be/PPfPmP44-r8  
 Episode date: 2016-09-15  
 Research by: Bisqwit, 2016
 
@@ -98,6 +105,7 @@ Research by: Bisqwit, 2016
 
 ## Episode 8: NES Solar Jetman — Hunt for the Golden Warpship
 
+Video link: http://youtu.be/Ex1iFZuUdJ4  
 Episode date: 2016-09-27  
 Research by: TNSe, 2004  
 Research by: Bisqwit, 2016
@@ -106,6 +114,7 @@ Research by: Bisqwit, 2016
 
 ## Episode 9: NES River City Ransom (Downtown Nekketsu Monogatari)
 
+Video link: http://youtu.be/cDvHy4RtAek  
 Episode date: 2016-10-02  
 Research by: Bisqwit, 2016
 
@@ -113,6 +122,7 @@ Research by: Bisqwit, 2016
 
 ## Episode 10: NES The Guardian Legend (Guardic Gaiden)
 
+Video link: http://youtu.be/9c848FjqUmI  
 Episode date: 2016-10-30  
 Research by: TNSe, 2004  
 Research by: Bisqwit, 2016

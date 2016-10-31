@@ -28,10 +28,14 @@ Each game did this a bit differently.
 The act of saving the game as a password was an art unto itself.
 Some games were particularly creative with how they did it.
 This makes it an entertaining subject of study in my opinion.
-It also provides a window into the minds and process of game development
+It also provides a window into the minds and the process of game development
 in the early console era, and is a way to document and appreciate
 the hard work the programmers did back in the day.
 Sometimes it may spotlight caveats that are still applicable to developers even today.
+
+Personally for me, it is a way to gain closure to the hundreds of hours,
+that I invested in attempting to crack the passwords in my early teens;
+to close a book in a honorable and satisfying manner.
 
 Note: The “Research by” headers list the research that was utilized in the
 making of the episode. It is not a leaderboard of people who were

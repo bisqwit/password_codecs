@@ -1,9 +1,39 @@
 # password_codecs
 Collection of password encoders and decoders created
-with the video series at: https://www.youtube.com/playlist?list=PLzLzYGEbdY5nEFQsxzFanSDv_38Hz0w7B
+with the *Cracking Videogame Passwords* video series at:
+https://www.youtube.com/playlist?list=PLzLzYGEbdY5nEFQsxzFanSDv_38Hz0w7B
+
+Back in the day when games were supplied on ROM cartridges, there were no
+files or memory cards to which the game could be saved.
+
+On cartridges that did not have battery-backed SRAM, some games still
+provided the save-and-load function by using paper as the storage:
+The game state would be encoded in such a way
+that the player can transcribe it down on paper.
+For example, as a sequence of letters.
+Later, the player can enter the password,
+and if the password passes validation,
+the game will load the state stored in it.
+
+Because the password was stored in media that is subject to
+both intentional degradation (cracking)
+and unintentional degradation (misspelling or misreading),
+most games employed encryption and checksumming.
+The purpose of encryption and checksumming was to make sure,
+that the player cannot cheat or accidentally enter such a password
+that gives them an unfair advantage.
+Each game did this a bit differently.
+
+The act of saving the game as a password was an art to itself.
+Some games were particularly creative with how they did it.
+This makes it an entertaining subject of study in my opinion.
+It also provides a window into the minds and process of game development
+in the early console era, and is a way to document and appreciate
+the hard work the programmers did back in the day.
+Sometimes it may spotlight caveats that are still applicable to developers even today.
 
 Note: The “Research by” headers list the research that was utilized in the
-making of the episode. It is not necessarily the record of people who were
+making of the episode. It is not a leaderboard of people who were
 globally the first to crack the passwords.
 
 ## Episode 1: Mega Man 2

@@ -28,14 +28,14 @@ Research by: Bisqwit, 2016
 Episode date: 2016-09-06  
 Research by: Bisqwit, 2016
 
-* bubbob.php (PHP): A tool that prints the list of all passwords that can be decoded by the game.
+* bubbob-password.php (PHP): A tool that prints the list of all passwords that can be decoded by the game, producing 1719 lines of output.
 
 ## Episode 5: Mega Man 4
 
 Episode date: 2016-09-07  
 Research by: unknown, 200x
 
-* mm4minimal1.php (PHP): A minimal tool for generating a random valid password.
+* mm4minimal1.php (PHP): A minimal tool for generating a random valid password as an image.
 * mm4minimal1.py (Python): A Python version of the same.
 * megaman4-model2.png (PNG): An image file used by the above two programs.
 
@@ -67,7 +67,7 @@ Research by: Bisqwit, 2016
 Episode date: 2016-10-02  
 Research by: Bisqwit, 2016
 
-* rcrpass.cc (C++): An encoder and decoder for the passwords.
+* rcrpass.cc (C++): An encoder and decoder for the passwords. UTF-8 combining diacritics and accents supported.
 
 ## Episode 10: The Guardian Legend
 
@@ -75,4 +75,4 @@ Episode date: 2016-10-30
 Research by: TNSe, 2004  
 Research by: Bisqwit, 2016
 
-* guardicpass.cc (C++): An encoder and decoder for the passwords.
+* guardicpass.cc (C++): An encoder and decoder for the passwords. ASCII only.

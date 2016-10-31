@@ -1,4 +1,5 @@
-# password_codecs
+# Password Codecs
+
 Collection of password encoders and decoders created
 with the *Cracking Videogame Passwords* video series at:
 https://www.youtube.com/playlist?list=PLzLzYGEbdY5nEFQsxzFanSDv_38Hz0w7B
@@ -35,6 +36,9 @@ Sometimes it may spotlight caveats that are still applicable to developers even 
 Note: The “Research by” headers list the research that was utilized in the
 making of the episode. It is not a leaderboard of people who were
 globally the first to crack the passwords.
+
+The word “codec” means a combined en**co**der-**dec**oder.
+These programs encode and decode passwords.
 
 ## Episode 1: Mega Man 2
 

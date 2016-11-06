@@ -74,6 +74,7 @@ Episode date: 2016-09-06
 Research by: Bisqwit, 2016
 
 * bubbob-password.php (PHP): A tool that prints the list of all passwords that can be decoded by the game, producing 1719 lines of output.
+* bubbob-output.txt.gz: The output printed by this program.
 
 ## Episode 5: NES Mega Man 4 (Rockman 4)
 
@@ -127,6 +128,16 @@ Research by: TNSe, 2004
 Research by: Bisqwit, 2016
 
 * guardicpass.cc (C++): An encoder and decoder for the passwords. ASCII only.
+
+## Episode 11: NES Punch-Out!!
+
+Video link: TBD
+Episode date: TBD
+Research by: Bisqwit, 2016
+
+* punchout.js (JavaScript): A tool that prints the list of all passwords that can be decoded by the game, producing 49177 lines of output.
+* punchout-js.cc (C++): A C++ translation of the JavaScript programs. Completes in 1 minute, while the JavaScript program (run in Node) takes several hours to complete.
+* punchout-output.txt.gz: The output printed by this program.
 
 ## Intermission (between episodes 6 and 7)
 

@@ -131,8 +131,8 @@ Research by: Bisqwit, 2016
 
 ## Episode 11: NES Punch-Out!!
 
-Video link: TBD
-Episode date: TBD
+Video link: http://youtu.be/ap1YL_kGGlg
+Episode date: 2016-11-07
 Research by: Bisqwit, 2016
 
 * punchout.js (JavaScript): A tool that prints the list of all passwords that can be decoded by the game, producing 49177 lines of output.

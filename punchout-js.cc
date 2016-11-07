@@ -1,20 +1,25 @@
 #include <algorithm>
+#include <cinttypes>
+#include <cstdint>
 #include <cstdio>
 #include <vector>
+#include <string>
 #include <mutex>
 #include <map>
 static const signed char hash[] = {6,3,5,7,9, 0,1,4,2,8}, offs[] = {1,2,0,-1, 2,0,1,-1, 0,1,2,-1, -1,-1,-1,-1};
 
-// 0: Major Circuit, Don Flamenco
-// 1: World Circuit: Piston Honda
-// 2: World Circuit Title Bout: Super Macho Man
+/* For best performance, use this command to compile this program:
+
+   g++ punchout-js.cc -std=c++0x -Wall -Wextra -Ofast -fopenmp -march=native
+
+*/
 
 int main()
 {
-    std::map<std::string, std::vector<unsigned long long>> stats;
+    std::map<std::string, std::vector<std::uint_fast64_t>> stats;
     std::mutex lk;
     #pragma omp parallel for
-    for(unsigned long long pass=0; pass <= 9999999999; ++pass)
+    for(std::uint_fast64_t pass=0; pass <= 9999999999u; ++pass)
     {
         // Convert password into an array of digits
         unsigned char p[10];
@@ -51,20 +56,19 @@ int main()
         char name[64]; std::sprintf(name, "win=%d%d lose=%d ko=%d%d circuit=%d", r0,r1, r3, r4,r5, r6);
         std::lock_guard<std::mutex> l(lk);
         stats[name].push_back(pass);
-        if(stats.size()%16 == 0) std::fprintf(stderr, "%llu\r", pass);
+        if(stats.size()%16 == 0) std::fprintf(stderr, "%" PRIuFAST64 "\r", pass);
     }
     std::fprintf(stderr, "\n");
 
-    unsigned totalsets=0, totalpass=0;
+    std::size_t totalpass=0;
     for(auto& k: stats)
     {
         std::printf("%s", k.first.c_str());
-        std::sort(k.second.begin(), k.second.end());
+        std::sort(k.second.begin(), k.second.end()); // Sorting makes sure the output is the same each time
         for(auto pass: k.second)
-            std::printf(" %010llu", pass);
+            std::printf(" %010" PRIuFAST64, pass);
         std::printf("\n");
-        totalsets += 1;
         totalpass += k.second.size();
     }
-    std::printf("%u settings, %u passwords\n", totalsets, totalpass);
+    std::printf("%zu settings, %zu passwords\n", stats.size(), totalpass);
 }

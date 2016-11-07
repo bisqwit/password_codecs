@@ -1,5 +1,5 @@
 'use strict'
-var s = require('./sprintf') // https://raw.githubusercontent.com/alexei/sprintf.js/master/src/sprintf.js
+var s = require('./sprintf') // Download this file from: https://raw.githubusercontent.com/alexei/sprintf.js/master/src/sprintf.js
 var hash = [6,3,5,7,9, 0,1,4,2,8], offs = [1,2,0,-1, 2,0,1,-1, 0,1,2,-1, -1,-1,-1,-1]
 var stats = {}, p = [0,0,0,0,0, 0,0,0,0,0]
 for(var pass=0; pass<=9999999999; ++pass)

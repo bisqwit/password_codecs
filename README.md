@@ -141,9 +141,9 @@ Research by: Bisqwit, 2016
 
 ## Episode 12: NES Swords & Serpents
 
-Video link: http://youtu.be/twIR0yE8Ll4
-Episode date: 2016-12-05
-Research by: Bisqwit, 2016
+Video link: http://youtu.be/twIR0yE8Ll4  
+Episode date: 2016-12-05  
+Research by: Bisqwit, 2016  
 
 * swspass.cc (C++): An encoder and decoder for the passwords.
 
@@ -154,3 +154,9 @@ Episode date: 2016-09-13
 Thanks to: Everyone who supports me on Patreon and Paypal!  
 Link to: https://patreon.com/Bisqwit  
 Link to: http://iki.fi/bisqwit/donate.html
+
+## Intermission 2 (after episode 12)
+
+Video link: http://youtu.be/gi7bW16yWBk  
+Episode date: 2016-12-05  
+Thanks to: Everyone who has subscribed to my channel!  

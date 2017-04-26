@@ -4,7 +4,7 @@ $table0 = unpack('C*', substr($rom, 0x1FB8E+16, 5));
 $table1 = unpack('C*', substr($rom, 0x1FB6A+16, 128));
 
 /* Set password to decode */
-$password = 'GNHMNBKZBGTG';
+$password = 'QKKKKKKKKKKK';
 $charset  = 'BDGHJKLMNPQRTWXZ';
 
 /* Convert to 4-bit numbers */
@@ -15,17 +15,15 @@ $bytes = Array();
 for($n=0; $n<6; ++$n) $bytes[$n] = $nibbles[$n*2+0] * 16 + $nibbles[$n*2+1];
 
 /* Decrypt */
-$bytes[0] ^= $bytes[5];
-$bytes[3] ^= $bytes[5];
-for($n=0; $n<5; ++$n) $bytes[$n] ^= $table0[1 + $n];
+print "byte5 = {$bytes[5]}\n";
+$bytes[0] ^= $table0[1] ^ $bytes[5];
+$bytes[1] ^= $table0[2];
+$a = $bytes[0] ^ $bytes[1];
+$bytes[4] ^= $table0[5] ^ $a;
+$bytes[2] ^= $table0[3] ^ $table1[1 + $bytes[4]*2 + 0];
+$bytes[3] ^= $table0[4] ^ $table1[1 + $bytes[4]*2 + 1] ^ $bytes[5];
 
-$A = $bytes[4] ^ $bytes[0] ^ $bytes[1];
-print "A is $A . Reject if >= 62\n";
-
-$bytes[2] ^= $table1[1 + $A*2 + 0];
-$bytes[3] ^= $table1[1 + $A*2 + 1];
-$crazy = ($bytes[0] ^ $bytes[1] ^ $bytes[2] ^ (($bytes[0] ^ $bytes[1]) >> 4)) & 15;
-printf("Crazy = %d Byte3low = %d, these should match\n", $crazy, $bytes[3] & 15);
+if((($bytes[3] ^ $a ^ $bytes[2] ^ ($a >> 4)) & 15) != 0) print "Data error\n";
 
 $values = Array(
   'lives'  => ($bytes[2] >> 4) & 3, //     but store 3 if value is 0
@@ -33,7 +31,7 @@ $values = Array(
   'armor'  => ($bytes[0] >> 1) & 3, // 68
   'shield' => ($bytes[0] >> 3) & 3, // 69, but store 255 if value is 3
   'unknown' => ($bytes[3] >> 6) & 3, // EF
-  'number_of_item1' => ($bytes[1] >> 6) & 3, // 454[6~
+  'number_of_item1' => ($bytes[1] >> 6) & 3, // 454
   'number_of_item2' => ($bytes[1] >> 4) & 3, // 455
   'number_of_item3' => ($bytes[3] >> 4) & 3, // 456
   'number_of_item4' => ($bytes[1] >> 2) & 3, // 457
@@ -44,12 +42,14 @@ $values = Array(
   'level' => $bytes[4]
 );
 
+print "Note: Level is {$values['level']}. Reject if >= 62\n";
+print "Note: Weapon is {$values['weapon']}. Reject if >= 7\n";
+
+
 /* For testing, make a little change */
-$values['level'] = 59;
+#$values['level'] = 59;
 
 /* Encode the password */
-
-$bytes[5] = 0xFF; // Arbitrarily chosen byte (?)
 
 $bytes[0] = $values['number_of_item7']
           + $values['armor'] * 2
@@ -62,22 +62,20 @@ $bytes[1] = $values['number_of_item5']
 $bytes[2] = $values['keys']
           + $values['lives'] * 16
           + $values['number_of_item6'] * 64;
+$a = $bytes[0] ^ $bytes[1];
 $bytes[3] = $values['number_of_item3'] * 16
-          + $values['unknown'] * 64;
+          + $values['unknown'] * 64
+          + (($a ^ $bytes[2] ^ ($a >> 4)) & 15);
+$bytes[4] = $values['level'];
 
-$crazy = ($bytes[0] ^ $bytes[1] ^ $bytes[2] ^ (($bytes[0] ^ $bytes[1]) >> 4)) & 15;
-$bytes[3] += $crazy;
-
-$A = $bytes[0] ^ $bytes[1];
-$bytes[4] = $A ^ $values['level'];
-$A ^= $bytes[4];
-
-print "We got A = $A\n";
-$bytes[2] ^= $table1[1 + $A*2 + 0];
-$bytes[3] ^= $table1[1 + $A*2 + 1];
-for($n=0; $n<5; ++$n) $bytes[$n] ^= $table0[1 + $n];
-$bytes[0] ^= $bytes[5];
-$bytes[3] ^= $bytes[5];
+// Byte 5: Any arbitrary byte used for encryption.
+#$bytes[5] = $a ^ $bytes[2] ^ $bytes[3] ^ $bytes[4];
+print "using byte5 = {$bytes[5]}\n";
+$bytes[0] ^= $table0[1] ^ $bytes[5];
+$bytes[1] ^= $table0[2];
+$bytes[2] ^= $table0[3] ^ $table1[1 + $bytes[4]*2 + 0];
+$bytes[3] ^= $table0[4] ^ $table1[1 + $bytes[4]*2 + 1] ^ $bytes[5];
+$bytes[4] ^= $table0[5] ^ $a;
 
 /* Convert bytes into symbols */
 $p = '';
@@ -88,4 +86,5 @@ for($n=0; $n<6; ++$n)
 }
 
 /* Print output */
+print "Orig: $password\n";
 print "Pass: $p\n";

@@ -147,6 +147,20 @@ Research by: Bisqwit, 2016
 
 * swspass.cc (C++): An encoder and decoder for the passwords.
 
+## Episode 13: NES Wizards & Warriors II — Iron Sword
+
+### Preparation video (livestream)
+
+Video link: http://youtu.be/GVjqY3n5bTA    
+Episode date: 2017-04-26    
+Research by: Bisqwit, 2017
+
+* ironswordpass.php (PHP): An encoder and decoder for the passwords.
+
+### Actual episode
+
+TBA
+
 ## Intermission (between episodes 6 and 7)
 
 Video link: http://youtu.be/qmxZndDVgmc  

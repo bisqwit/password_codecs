@@ -43,7 +43,7 @@ globally the first to crack the passwords.
 The word “codec” means a combined en**co**der-**dec**oder.
 These programs encode and decode passwords.
 
-## Episode 1: NES Mega Man 2 (Rockman 2)
+## Season 1 Episode 1: NES Mega Man 2 (Rockman 2)
 
 Video link: http://youtu.be/0eQyYrSQPew  
 Episode date: 2016-09-03  
@@ -51,7 +51,7 @@ Research by: Bisqwit, 199x
 
 No files
 
-## Episode 2: NES Mega Man 3 (Rockman 3)
+## Season 1 Episode 2: NES Mega Man 3 (Rockman 3)
 
 Video link: http://youtu.be/QnRcAyYmL0U  
 Episode date: 2016-09-04  
@@ -59,7 +59,7 @@ Research by: Bisqwit, 199x
 
 No files
 
-## Episode 3: NES Gremlins 2
+## Season 1 Episode 3: NES Gremlins 2
 
 Video link: http://youtu.be/iajgztvLxGc  
 Episode date: 2016-09-05  
@@ -67,7 +67,7 @@ Research by: Bisqwit, 2016
 
 * multigrep.php (PHP): A tool for searching files for strings with a character set offset and possibility of sparse strings
 
-## Episode 4: NES Bubble Bobble
+## Season 1 Episode 4: NES Bubble Bobble
 
 Video link: http://youtu.be/PIu9J_CD818  
 Episode date: 2016-09-06  
@@ -76,7 +76,7 @@ Research by: Bisqwit, 2016
 * bubbob-password.php (PHP): A tool that prints the list of all passwords that can be decoded by the game, producing 1719 lines of output.
 * bubbob-output.txt.gz: The output printed by this program.
 
-## Episode 5: NES Mega Man 4 (Rockman 4)
+## Season 1 Episode 5: NES Mega Man 4 (Rockman 4)
 
 Video link: http://youtu.be/PFcxmdH_4ac  
 Episode date: 2016-09-07  
@@ -86,7 +86,7 @@ Research by: unknown, 200x
 * mm4minimal1.py (Python): A Python version of the same.
 * megaman4-model2.png (PNG): An image file used by the above two programs.
 
-## Episode 6: NES Castlevania II — Simon’s Quest (Dracula II — Noroi no Fuuin)
+## Season 1 Episode 6: NES Castlevania II — Simon’s Quest (Dracula II — Noroi no Fuuin)
 
 Video link: http://youtu.be/_3ve0YEQEMw  
 Episode date: 2016-09-10  
@@ -95,7 +95,7 @@ Research by: Bisqwit, 200x
 
 * simonspass.cc (C++): An encoder and decoder for the passwords. No main program.
 
-## Episode 7: NES Bomberman
+## Season 1 Episode 7: NES Bomberman
 
 Video link: http://youtu.be/PPfPmP44-r8  
 Episode date: 2016-09-15  
@@ -103,7 +103,7 @@ Research by: Bisqwit, 2016
 
 * bomberpass.cc (C++): An encoder and decoder for the passwords.
 
-## Episode 8: NES Solar Jetman — Hunt for the Golden Warpship
+## Season 1 Episode 8: NES Solar Jetman — Hunt for the Golden Warpship
 
 Video link: http://youtu.be/Ex1iFZuUdJ4  
 Episode date: 2016-09-27  
@@ -112,7 +112,7 @@ Research by: Bisqwit, 2016
 
 * solarpass.rs (Rust): An encoder and decoder for the passwords.
 
-## Episode 9: NES River City Ransom (Downtown Nekketsu Monogatari)
+## Season 1 Episode 9: NES River City Ransom (Downtown Nekketsu Monogatari)
 
 Video link: http://youtu.be/cDvHy4RtAek  
 Episode date: 2016-10-02  
@@ -120,7 +120,7 @@ Research by: Bisqwit, 2016
 
 * rcrpass.cc (C++): An encoder and decoder for the passwords. UTF-8 combining diacritics and accents supported.
 
-## Episode 10: NES The Guardian Legend (Guardic Gaiden)
+## Season 1 Episode 10: NES The Guardian Legend (Guardic Gaiden)
 
 Video link: http://youtu.be/9c848FjqUmI  
 Episode date: 2016-10-30  
@@ -129,7 +129,7 @@ Research by: Bisqwit, 2016
 
 * guardicpass.cc (C++): An encoder and decoder for the passwords. ASCII only.
 
-## Episode 11: NES Punch-Out!!
+## Season 1 Episode 11: NES Punch-Out!!
 
 Video link: http://youtu.be/ap1YL_kGGlg  
 Episode date: 2016-11-07  
@@ -139,7 +139,7 @@ Research by: Bisqwit, 2016
 * punchout-js.cc (C++): A C++ translation of the JavaScript program. Completes in 1 minute, while the JavaScript program (run in Node) takes several hours to complete.
 * punchout-output.txt.gz: The output printed by this program.
 
-## Episode 12: NES Swords & Serpents
+## Season 1 Episode 12: NES Swords & Serpents
 
 Video link: http://youtu.be/twIR0yE8Ll4  
 Episode date: 2016-12-05  
@@ -147,7 +147,7 @@ Research by: Bisqwit, 2016
 
 * swspass.cc (C++): An encoder and decoder for the passwords.
 
-## Episode 13: NES Wizards & Warriors II — Iron Sword
+## Season 1 Episode 13: NES Wizards & Warriors II — Iron Sword
 
 ### Preparation video (livestream)
 
@@ -159,9 +159,17 @@ Research by: Bisqwit, 2017
 
 ### Actual episode
 
-TBA
+Video link: http://youtu.be/5teRgdsvwEI  
+Episode date: 2019-06-22  
+Research by: Bisqwit, 2017  
 
-## Intermission (between episodes 6 and 7)
+## Season 2 Episode 1: NES G.I. Joe — Atlantis Factor
+
+Video link: http://youtu.be/7tUtO_2BknQ  
+Episode date: 2019-07-11  
+Research by: Bisqwit, 2019  
+
+## Intermission (between season 1 episodes 6 and 7)
 
 Video link: http://youtu.be/qmxZndDVgmc  
 Episode date: 2016-09-13  
@@ -169,7 +177,7 @@ Thanks to: Everyone who supports me on Patreon and Paypal!
 Link to: https://patreon.com/Bisqwit  
 Link to: http://iki.fi/bisqwit/donate.html
 
-## Intermission 2 (after episode 12)
+## Intermission 2 (after season 1 episode 12)
 
 Video link: http://youtu.be/gi7bW16yWBk  
 Episode date: 2016-12-05  

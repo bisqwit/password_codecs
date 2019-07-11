@@ -163,11 +163,13 @@ Video link: http://youtu.be/5teRgdsvwEI
 Episode date: 2019-06-22  
 Research by: Bisqwit, 2017  
 
-## Season 2 Episode 1: NES G.I. Joe — Atlantis Factor
+## Season 2 Episode 1: NES G.I. Joe — The Atlantis Factor
 
 Video link: http://youtu.be/7tUtO_2BknQ  
 Episode date: 2019-07-11  
 Research by: Bisqwit, 2019  
+
+* gijoeatlantis.scm (Scheme): An encoder and decoder for the passwords.
 
 ## Intermission (between season 1 episodes 6 and 7)
 

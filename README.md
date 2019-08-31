@@ -178,6 +178,8 @@ Episode date: 2019-08-31
 Research by: SnowBro, 2010; Bisqwit, 2019  
 
 * metroid-passwords.cc (C++): An encoder and decoder for the passwords.
+* metroid-map.php (PHP): The program I wrote for generating the map shown
+  near the beginning of the video.
 
 ## Intermission (between season 1 episodes 6 and 7)
 

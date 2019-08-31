@@ -173,8 +173,8 @@ Research by: Bisqwit, 2019
 
 ## Season 2 Episode 2: NES Metroid
 
-Video link: TBD  
-Episode date: TBD  
+Video link: http://youtu.be/wiOalxCQ1Mw  
+Episode date: 2019-08-31  
 Research by: SnowBro, 2010; Bisqwit, 2019  
 
 * metroid-passwords.cc (C++): An encoder and decoder for the passwords.

@@ -171,6 +171,14 @@ Research by: Bisqwit, 2019
 
 * gijoeatlantis.scm (Scheme): An encoder and decoder for the passwords.
 
+## Season 2 Episode 2: NES Metroid
+
+Video link: TBD  
+Episode date: TBD  
+Research by: SnowBro, 2010; Bisqwit, 2019  
+
+* metroid-passwords.cc (C++): An encoder and decoder for the passwords.
+
 ## Intermission (between season 1 episodes 6 and 7)
 
 Video link: http://youtu.be/qmxZndDVgmc  

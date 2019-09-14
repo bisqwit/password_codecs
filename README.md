@@ -163,6 +163,8 @@ Video link: http://youtu.be/5teRgdsvwEI
 Episode date: 2019-06-22  
 Research by: Bisqwit, 2017  
 
+* ironswordpass.php (PHP): An encoder and decoder for the passwords.
+
 ## Season 2 Episode 1: NES G.I. Joe — The Atlantis Factor
 
 Video link: http://youtu.be/7tUtO_2BknQ  
@@ -180,6 +182,16 @@ Research by: SnowBro, 2010; Bisqwit, 2019
 * metroid-passwords.cc (C++): An encoder and decoder for the passwords.
 * metroid-map.php (PHP): The program I wrote for generating the map shown
   near the beginning of the video.
+
+## Season 2 Episode 3: DOS Dyna Blaster (also Amiga)
+
+Video link: http://youtu.be/JMz_PYnpJPY  
+Episode date: 2019-09-14  
+Research by: Bisqwit, 2019  
+
+* dynablaster-passwords.php (PHP): An encoder and decoder for the passwords.
+* dynablaster-supporting_files.zip: dosbox.conf, a commented disassembly (of
+  relevant parts) and a list of coincidentally English-language passwords.
 
 ## Intermission (between season 1 episodes 6 and 7)
 

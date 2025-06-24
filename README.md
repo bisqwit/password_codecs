@@ -23,7 +23,7 @@ most games employed encryption and checksumming.
 The purpose of encryption and checksumming was to reduce the chances
 of the player gaining an unfair advantage by entering a modified password.
 Each game did this a bit differently.
-
+[A
 The act of saving the game as a password was an art unto itself.
 Some games were particularly creative with how they did it.
 This makes it an entertaining subject of study in my opinion.
@@ -192,6 +192,15 @@ Research by: Bisqwit, 2019
 * dynablaster-passwords.php (PHP): An encoder and decoder for the passwords.
 * dynablaster-supporting_files.zip: dosbox.conf, a commented disassembly (of
   relevant parts) and a list of coincidentally English-language passwords.
+
+## Season 3 Episode 1: NES The Battle of Olympus
+
+Video link: https://youtu.be/CLKLSXjWNRk  
+Episode date: 2025-06-23  
+Research by: Bisqwit, 2025
+
+* olympass-decode.py (Python): A decoder for passwords
+* olympass-encode.py (Python): An encoder for passwords
 
 ## Intermission (between season 1 episodes 6 and 7)
 

@@ -225,7 +225,7 @@ Video link: http://youtu.be/qmxZndDVgmc
 Episode date: 2016-09-13  
 Thanks to: Everyone who supports me on Patreon and Paypal!  
 Link to: https://patreon.com/Bisqwit  
-Link to: http://iki.fi/bisqwit/donate.html
+Link to: https://iki.fi/bisqwit/donate.html
 
 ## Intermission 2 (after season 1 episode 12)
 

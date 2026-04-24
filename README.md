@@ -202,6 +202,22 @@ Research by: Bisqwit, 2025
 * olympass-decode.py (Python): A decoder for passwords
 * olympass-encode.py (Python): An encoder for passwords
 
+## Season 3 Episode 2: NES Castlevania III / Akumajou densetsu
+
+Video link: https://youtu.be/vfvaZK1ZL-U  
+Episode date: 2025-07-24  
+Research by: Bisqwit, 2025
+
+* akuden-codec-release.py (Python): An encoder and decoder for the passwords.
+
+## Season 3 Episode 3: NES Kid Ikarus
+
+Video link: https://youtu.be/NKH07NsSU9I  
+Episode date: 2026-04-25  
+Research by: Bisqwit, 2025
+
+* kidicarus-codec.py (Python): An encoder and decoder for the passwords.
+
 ## Intermission (between season 1 episodes 6 and 7)
 
 Video link: http://youtu.be/qmxZndDVgmc  
@@ -215,3 +231,4 @@ Link to: http://iki.fi/bisqwit/donate.html
 Video link: http://youtu.be/gi7bW16yWBk  
 Episode date: 2016-12-05  
 Thanks to: Everyone who has subscribed to my channel!  
+

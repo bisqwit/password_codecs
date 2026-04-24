@@ -94,6 +94,7 @@ Research by: unknown, 200x
 Research by: Bisqwit, 200x
 
 * simonspass.cc (C++): An encoder and decoder for the passwords. No main program.
+* simonspass.py (Python): The same, written by ishkanan.
 
 ## Season 1 Episode 7: NES Bomberman
 

@@ -213,7 +213,7 @@ Research by: Bisqwit, 2025
 
 ## Season 3 Episode 3: NES Kid Ikarus
 
-Video link: https://youtu.be/NKH07NsSU9I  
+Video link: https://youtu.be/etZdCmQjuPA
 Episode date: 2026-04-25  
 Research by: Bisqwit, 2025
 
